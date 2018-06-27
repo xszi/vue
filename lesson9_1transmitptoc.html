@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父子组件之间数据的传递</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <counter :count="1"></counter>
+        <counter :count="2"></counter>
+    </div>
+    <script>
+        //父组件向子组件之间传递数据一般是通过设置属性的方式进行传递的
+        var counter = {
+            props: ['count'],
+            data: function () {
+                return {
+                    number: this.count
+                }
+            },
+            template: '<div @click="handleClick">{{number}}</div>',
+            methods: {
+                handleClick: function () {
+                    this.number++;
+                }
+            }
+        }
+        var vm = new Vue({
+            el: "#root",
+            components: {
+                counter: counter
+            }
+        })
+    </script>
+</body>
+</html>

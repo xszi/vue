@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue中的CSS过渡动画原理</title>
+    <link rel="stylesheet" href="animate.css">
+    <script src="vue.js"></script>
+    <style>
+        /*@keyframes bounce-in {*/
+            /*0% {*/
+                /*transform: scale(0);*/
+            /*}*/
+            /*50% {*/
+                /*transform: scale(1.5);*/
+            /*}*/
+            /*100% {*/
+                /*transform: scale(1);*/
+            /*}*/
+        /*}*/
+        /*.v-enter-active{*/
+            /*transform-origin: left center;*/
+            /*animation: bounce-in 1s;*/
+        /*}*/
+        /*.v-leave-active {*/
+            /*transform-origin: left center;*/
+            /*animation: bounce-in 1s reverse;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+    <div id="root">
+        <transition
+                name="fade"
+                enter-active-class="animated swing"
+                leave-active-class="animated shake"
+        >
+            <!--使用v-show也是有效的-->
+            <div v-if="show">hello world</div>
+        </transition>
+        <button @click="handleClick">toggle</button>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: "#root",
+            data: {
+              show: true
+            },
+            methods: {
+                handleClick: function () {
+                    this.show = !this.show;
+                } 
+            }
+        })
+    </script>
+</body>
+</html>

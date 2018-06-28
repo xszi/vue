@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4cc570a-978c-4610-8e2d-c7516667f79c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson10_paraandprops.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson11_bindevent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson12_transmitnopc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson13_slot1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson13_slot2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson14_dynamicitem.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson6_vif.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson7_2listrender.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson7_listrender.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8_1isrow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8_3ref.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson8_4ref.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson9_1transmitptoc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson9_2transmitctop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson15_animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson15_animate2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson15_listtransition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson15_transition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson16_animatetopakage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson16_jsvelocity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lesson16_manytransitions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/velocity.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lesson5_bindstyle.html" afterPath="$PROJECT_DIR$/lesson5_1bindstyle.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lessson3_module.html" afterPath="$PROJECT_DIR$/lesson3_module.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,31 +25,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="lesson13_slot1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson13_slot1.html">
+      <file leaf-file-name="lesson16_jsvelocity.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson16_jsvelocity.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="490">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson13_slot2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson13_slot2.html">
+      <file leaf-file-name="lesson15_transition.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15_transition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="1035">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson12_transmitnopc.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson12_transmitnopc.html">
+      <file leaf-file-name="lesson16_manytransitions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson16_manytransitions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="670">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson15_listtransition.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15_listtransition.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson15_animate2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15_animate2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson15_animate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson15_animate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="927">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson16_animatetopakage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson16_animatetopakage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -66,7 +98,7 @@
       <file leaf-file-name="lesson14_dynamicitem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="216">
               <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding />
             </state>
@@ -117,6 +149,14 @@
         <option value="$PROJECT_DIR$/lesson13_slot1.html" />
         <option value="$PROJECT_DIR$/lesson13_slot2.html" />
         <option value="$PROJECT_DIR$/lesson14_dynamicitem.html" />
+        <option value="$PROJECT_DIR$/lesson15_transition.html" />
+        <option value="$PROJECT_DIR$/lesson15_transition2.html" />
+        <option value="$PROJECT_DIR$/lesson15_animate2.html" />
+        <option value="$PROJECT_DIR$/lesson16_js+velocity.html" />
+        <option value="$PROJECT_DIR$/lesson16_jsvelocity.html" />
+        <option value="$PROJECT_DIR$/lesson16_manytransitions.html" />
+        <option value="$PROJECT_DIR$/lesson15_listtransition.html" />
+        <option value="$PROJECT_DIR$/lesson16_animatetopakage.html" />
       </list>
     </option>
   </component>
@@ -127,7 +167,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
+    <option name="x" value="544" />
+    <option name="y" value="88" />
     <option name="width" value="1502" />
     <option name="height" value="1381" />
   </component>
@@ -146,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -158,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,6 +209,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\vue" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\GitHub\vue" />
       <recent name="C:\Users\jiuhua\Desktop\vue" />
@@ -200,17 +244,18 @@
       <workItem from="1529976288947" duration="11762000" />
       <workItem from="1530068338782" duration="19931000" />
       <workItem from="1530106576614" duration="84000" />
+      <workItem from="1530149066606" duration="11928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41955000" />
+    <option name="totallyTimeSpent" value="53883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="0" width="1502" height="1381" extended-state="0" />
+    <frame x="544" y="88" width="1502" height="1381" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -239,6 +284,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lesson13_slot1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson13_slot2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_transmitnopc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson13_slot1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -442,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson8_1isrow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson9_2transmitctop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -497,16 +567,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson13_slot1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="0">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
+    <entry file="file://$PROJECT_DIR$/lesson8_1isrow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="647">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson12_transmitnopc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -519,10 +597,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson12_transmitnopc.html">
+    <entry file="file://$PROJECT_DIR$/lesson16_manytransitions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="670">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_listtransition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_animate2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson15_animate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="927">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_animatetopakage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson16_jsvelocity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding />
         </state>
       </provider>

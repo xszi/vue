@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>非父子组件间传值（Bus/总线/发布订阅模式/观察者模式）</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <child-name content="初一"></child-name>
+        <child-name content="乘风"></child-name>
+    </div>
+    <script>
+        Vue.prototype.bus = new Vue();
+
+        Vue.component('ChildName', {
+            props: ['content'],
+            data: function () {
+              return {
+                  selfContent: this.content
+              }
+            },
+            template: '<div @click="handleChange">{{selfContent}}</div>',
+            methods: {
+                handleChange: function () {
+                    this.bus.$emit('change',this.selfContent)
+                }
+            },
+            //生命周期函数（生命周期钩子）挂载之后
+            mounted: function () {
+                var this_ = this
+                this.bus.$on('change',function (msg) {
+                    this_.selfContent = msg
+                })
+            }
+        })
+
+        var vm = new Vue({
+            el: "#root"
+        })
+    </script>
+</body>
+</html>

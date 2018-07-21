@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4cc570a-978c-4610-8e2d-c7516667f79c" name="Default" comment="" />
+    <list default="true" id="b4cc570a-978c-4610-8e2d-c7516667f79c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson14_dynamicitem.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson14_dynamicitem.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
               <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pr.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pr.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -112,6 +124,7 @@
         <option value="$PROJECT_DIR$/lesson10_paraandprops.html" />
         <option value="$PROJECT_DIR$/transmitnopc.html" />
         <option value="$PROJECT_DIR$/slot1.html" />
+        <option value="$PROJECT_DIR$/pr.html" />
       </list>
     </option>
   </component>
@@ -122,8 +135,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
-    <option name="y" value="2" />
+    <option name="x" value="107" />
+    <option name="y" value="30" />
     <option name="width" value="1839" />
     <option name="height" value="1381" />
   </component>
@@ -142,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,11 +167,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -205,14 +218,15 @@
       <workItem from="1530884732361" duration="1232000" />
       <workItem from="1530924457336" duration="6023000" />
       <workItem from="1530956208054" duration="610000" />
+      <workItem from="1531832171400" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62560000" />
+    <option name="totallyTimeSpent" value="62698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="2" width="1839" height="1381" extended-state="0" />
+    <frame x="107" y="30" width="1839" height="1381" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15981992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -244,14 +258,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson14_dynamicitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1_2todolist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -596,6 +602,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>render-2</title>
+	<script src='vue.js'></script>
+</head>
+<body>
+	<div id='app'>
+		<h1>{{blogTitle}}</h1>
+		<h6>{{blogTitle}}</h6><!-- 无效 -->
+	</div>
+	<script>
+		
+		var vm = new Vue({
+			el: '#app',
+			data: {
+				blogTitle: 'hello',	
+			},
+			render: function (createElement) {
+				return createElement('h1', this.blogTitle);
+			}
+		})
+	</script>
+</body>
+</html>

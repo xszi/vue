@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>render</title>
+	<script src="vue.js"></script>
+</head>
+<body>
+	<anchored-heading: level='1'>Hello world!</anchored-heading:>
+<script>
+	Vue.component('anchored-heading', {
+	  render: function (createElement) {
+	    return createElement(
+	      'h' + this.level,   // 标签名称
+	      this.$slots.default // 由子节点构成的数组
+	    )
+	  },
+	  props: {
+	    level: {
+	      type: Number,
+	      required: true
+	    }
+	  }
+	})
+</script>
+</body>
+</html>

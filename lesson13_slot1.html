@@ -14,11 +14,16 @@
     </div>
     <script>
         Vue.component('body-content',{
-            template: '<div>' +
-                            '<slot name="header">default header</slot>' +
-                            '<div class="content">content</div>' +
-                            '<slot name="footer"></slot>'+
-                       '</div>'
+            template:   `<div>
+                            <slot name="header">default header1</slot>
+                            <div class="content">content</div>
+                            <slot name="footer"></slot>
+                        </div>`
+            // '<div>' +
+            //                 '<slot name="header">default header</slot>' +
+            //                 '<div class="content">content</div>' +
+            //                 '<slot name="footer"></slot>'+
+            //            '</div>'
         })
         var vm = new Vue({
             el: "#root"

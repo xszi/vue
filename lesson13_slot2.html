@@ -20,12 +20,12 @@
                     list: [1,2,3,4]
                 }
             },
-            template:  '<div>' +
-                            '<ul>'+
-                                '<slot v-for="item of list" :item="item">' +
-                                '</slot>'+
-                            '</ul>'+
-                        '</div>'
+            template:  `<div>
+                            <ul>
+                                <slot v-for="item of list" :item="item">
+                                </slot>
+                            </ul>
+                        </div>`
 
         })
         var vm = new Vue({

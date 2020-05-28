@@ -1,3 +1,19 @@
-# 关于Vue的几个厉害的东西 
+# vue-study
 
-### 不使用vue-cli脚手架构建一个Vue项目
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

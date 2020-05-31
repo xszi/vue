@@ -64,10 +64,13 @@ export default {
 }
 </script>
 
-<style scoped>
-.tmpl span{
-  display: inline-block;
-  margin-left: 20px;
-  color: blue;
-}
+<style lang='less' scoped>
+.tmpl{
+    span{
+      display: inline-block;
+      margin-left: 20px;
+      color: blue;
+    }
+} 
+
 </style>

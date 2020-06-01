@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      <slider/>
+      <div>List</div>
   </div>
 </template>
 

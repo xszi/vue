@@ -1,13 +1,20 @@
+const Slot = () => import(/* webpackChunkName: "slot" */ '../views/slot/Parent.vue')
+const Echart = () => import(/* webpackChunkName: "chart" */ '../views/echart/Index.vue')
+
+export enum RouteName{
+    Slot = 'Slot',
+    Echart = 'Echart'
+}
 
 export default [
     {
         path: '/slot',
-        name: 'Slot',
-        component: () => import(/* webpackChunkName: "slot" */ '../views/slot/Parent.vue')
+        name: RouteName.Slot,
+        component: Slot
     },
     {
         path: '/echart',
-        name: 'Echart',
-        component: () => import(/* webpackChunkName: "chart" */ '../views/echart/Index.vue')
+        name: RouteName.Echart,
+        component: Echart
     }
 ]

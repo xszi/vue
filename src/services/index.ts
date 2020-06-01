@@ -10,6 +10,6 @@ export default class Services {
     static async getHomeRecommendList() {
         this.init()
         // 请求回来的结果res.data是HomeRecommendListItem
-        return axios.get<HomeRecommendListItem[]>("/homeRecommendList").then(res => res.data)
+        return axios.get<HomeRecommendListItem[]>("/homeRecommend").then(res => res.data)
     }
 }

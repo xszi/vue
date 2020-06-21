@@ -1,0 +1,23 @@
+<!-- 告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>鼠标单击Button1后将Button1移动到Button2的后面</title>
+</head>
+
+<body>
+  <input type="button" id ="button1" value="1" onclick="moveBtn(this);">
+  <input type="button" id ="button2" value="2" />
+</body>
+
+</html>
+<script>
+  function moveBtn(e) {
+    var clone = e.cloneNode(true)
+    var parent = e.parent
+    e.parent.appendChild(clone)
+    e.parent.removeChild(e)
+  }
+</script>

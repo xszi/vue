@@ -1,0 +1,30 @@
+<!-- 告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>鼠标单击Button1后将Button1移动到Button2的后面</title>
+</head>
+
+<body>
+  <ul id="parent">
+    <li id="child">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+</body>
+
+</html>
+<script>
+  console.log(1)
+  var parent = document.getElementById('parent')
+  var child = document.getElementById('child')
+  parent.addEventListener('click', function(ev) {
+    console.log(`target: ${ev.target.id}     currentTarget: ${ev.currentTarget.id}`);
+  })
+  child.addEventListener('click', function(ev) {
+    console.log(`target: ${ev.target.id}     currentTarget: ${ev.currentTarget.id}`);
+  })
+</script>

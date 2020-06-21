@@ -1,0 +1,33 @@
+<!-- 告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>写出3个使用this的典型应用</title>
+    </head>
+    <body>
+        <!-- <input type="button" id="text" onclick="showInfo(this);" value="点击一下"/> -->
+        <input type="button" id="text" value="点击一下"/>
+    </body>
+</html>
+<script>
+    // 构造函数时使用this
+    function Animal(name, color) {
+    　　this.name = name;
+    　　this.color = color;
+    }
+    // 传递按钮元素
+    function showInfo(e) {
+        console.log(e.value)
+    }
+    // input点击，获取值
+    var btn = document.getElementById("text");
+    btn.onclick = function() {
+        alert(this.value);    //此处的this是按钮元素
+    }
+    var  numbers = [5, 458 , 120 , -215 ]; 
+    var  maxInNumbers = Math.max.apply(this, numbers);  
+    console.log(maxInNumbers);  // 458
+    var maxInNumbers = Math.max.call(this,5, 458 , 120 , -215); 
+    console.log(maxInNumbers);  // 458
+</script>

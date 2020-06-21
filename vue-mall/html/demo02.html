@@ -1,0 +1,25 @@
+<!-- 告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>请实现，鼠标点击页面中的任意标签，alert该标签的名称</title>
+</head>
+
+<body>
+    <p>蜘蛛</p>
+    <div>蜘蛛侠</div>
+    <a href="#">我的</a>
+</body>
+
+</html>
+<script>
+  document.onclick = function (e) {
+    console.log(e)
+    e = e || window.event; // firefox只能使用event，其他浏览器可以使用window.event
+    var o = e.target || e.srcElement; // firefox有target属性，但是IE只有srcElement属性
+    alert(o.tagName);
+  }
+
+</script>

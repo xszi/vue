@@ -1,0 +1,113 @@
+// 弹性盒子
+.ik-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: box;
+}
+
+//calc计算
+.calc-w(@n,@m,@c){
+    //@n:分子 @m分母; 
+    //@c单位: 100%;1rem;1px;1em;
+    width: calc((@n/@m) * @c);
+    width: -moz-calc(@n/@m * @c);
+	width: -webkit-calc(@n/@m * @c);
+}
+//calc计算
+.calc-h(@n,@m){
+    height: calc(@n/@m * @c);
+    height: -moz-calc(@n/@m * @c);
+	height: -webkit-calc(@n/@m * @c);
+}
+
+// 布局方式
+// horizontal(水平) | vertical(垂直)
+.ik-box-orient(@arg){
+    -webkit-box-orient: @arg;
+    -moz-box-orient: @arg;
+    -o-box-orient: @arg;
+    box-orient: @arg;
+}
+
+// 空间分配
+.ik-box-flex(@n){
+    -webkit-box-flex: @n;
+    -moz-box-flex: @n;
+    -o-box-flex: @n;
+    box-flex: @n;
+} 
+// 垂直方向上的空间利用
+// stretch(拉伸) | start | end | center
+.ik-box-align(@arg){
+    -webkit-box-align: @arg;
+    -moz-box-align: @arg;
+    -o-box-align: @arg;
+    box-align: @arg;
+}
+
+// 水平方向上的空间利用
+// start | end | center | justify(两端对齐)
+.ik-box-pack(@arg){
+    -webkit-box-pack: @arg;
+    -moz-box-pack: @arg;
+    -o-box-pack: @arg;
+    box-pack: @arg;
+}
+
+// 圆角
+.border-radius(@n){
+    -webkit-border-radius: @n;
+    -moz-border-radius: @n;
+    border-radius: @n;
+}
+
+// 垂直居中
+.vertical-center(@w, @h){
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: @w;
+    height: @h;
+}
+
+// 图标生成
+.ik-icon(@u, @w, @h,@sw,@sh){
+    width: @w;
+    height: @h;
+    background: url(@u) 0 0 no-repeat;
+    background-size: @sw @sh;
+}
+//边框盒
+.box-sizing{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box ;/* Firefox */
+    -webkit-box-sizing: border-box ;/* Safari */
+}
+//块阴影
+.box-shadow(@l,@b,@x,@w,@n){
+    box-shadow: @l @b @x @w rgba(0, 0, 0, @n); 
+    -moz-box-shadow:@l @b @x @w rgba(0, 0, 0, @n);/*firefox*/  
+    -webkit-box-shadow:@l @b @x @w rgba(0, 0, 0, @n);/*webkit*/  
+    box-shadow:@l @b @x @w rgba(0, 0, 0, @n);/*opera或ie9*/ 
+}
+//超出部分隐藏一行
+.text-overflow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+//超出部分隐藏多行 n:行数
+.text-overflow-more(@n:1){
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @n;
+}
+
+//===============================================================

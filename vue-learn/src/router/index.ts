@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@views/Home.vue'
 import catalogueRoutes from './catalogue'
 import vueCourseRoutes from './vue-course'
+import Transfer from '@components/transfer'
 
 Vue.use(VueRouter)
 
@@ -13,9 +14,13 @@ const routes: Array<RouteConfig> = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/transfer',
+    name: 'Transfer',
+    component: Transfer
+  },
   // 首页目录
   ...catalogueRoutes,
-  // vue实战
   ...vueCourseRoutes
 ]
 

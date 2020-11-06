@@ -1,4 +1,7 @@
-
 <template>
-    <div class="header">TS写Transfer1111</div>
+    <i-tree-transform
+        v-model="value"
+        :data="data"
+        filterable
+    ></i-tree-transform>
 </template>

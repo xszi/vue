@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import { Component, Prop, Watch, Mixins } from 'vue-property-decorator'
 import template from './transfer.vue'
-import iTreeTransfer from '../../../packages/index'
-
+import testChild from '../testChild'
 
 @Component({
     name: 'transfer',
     mixins: [template],
-    // components: {
-    //     iTreeTransfer
-    // }
+    components: {
+        testChild
+    }
 })
 
 export default class Transfer extends Vue {

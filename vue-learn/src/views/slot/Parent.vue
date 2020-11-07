@@ -1,6 +1,5 @@
 <template>
   <div class="Parent">
-
     <!-- 默认插槽 -->
     <!-- <div class="default-slot">
       <p>这是父组件</p>

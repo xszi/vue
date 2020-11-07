@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import elementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
 import iTreeTransfer from '../packages/index'
 
 Vue.config.productionTip = false

@@ -7,5 +7,6 @@
         />
         <p>v-model: {{value}}</p>
         <testChild />
+        <i-tree />
     </div>
 </template>

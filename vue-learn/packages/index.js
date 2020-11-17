@@ -1,7 +1,9 @@
 import iTreeTransfer from './tree-transfer/index'
+import iTree from './tree/index'
 
 const components = [
-    iTreeTransfer
+    iTreeTransfer,
+    iTree
 ]
 
 const install = function (Vue) {
@@ -16,5 +18,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
     install,
-    iTreeTransfer
+    iTreeTransfer,
+    iTree
 }

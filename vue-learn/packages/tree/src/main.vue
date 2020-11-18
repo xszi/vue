@@ -1,19 +1,21 @@
 <template>
-    <div>我要自己写一个树形组件</div>
+    <div>我要自己写一个树形组件
+        <tree />
+    </div>
 </template>
 
 <script>
-import Emitter from '../mixins/emitter'
-// import TransferPanel from './transfer-panel.vue'
-import Migrating from '../mixins/migrating'
-// import { deepCopy } from '../mixins/deepCopy'
+// import Emitter from '../mixins/emitter'
+import Tree from './tree.vue'
+// import Migrating from '../mixins/migrating'
+import { deepCopy } from '../mixins/deepCopy'
 export default {
     name: 'iTree',
 
-    mixins: [Emitter, Migrating],
+    // mixins: [Emitter, Migrating],
 
     components: {
-        // TransferPanel
+        Tree
     },
 
     props: {

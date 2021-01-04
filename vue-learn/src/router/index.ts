@@ -4,6 +4,7 @@ import Home from '@views/Home.vue'
 import catalogueRoutes from './catalogue'
 import vueCourseRoutes from './vue-course'
 import Transfer from '@components/transfer'
+import SelectTab from '@components/selectTab'
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,11 @@ const routes: Array<RouteConfig> = [
     path: '/transfer',
     name: 'Transfer',
     component: Transfer
+  },
+  {
+    path: '/selectTab',
+    name: 'SelectTab',
+    component: SelectTab
   },
   // 首页目录
   ...catalogueRoutes,

@@ -18,7 +18,6 @@ export default class SelectTab extends Vue {
         const bar = <HTMLElement>document.getElementsByClassName('tabs-active-bar')[0];
         // ts语法需要加类型断言<HTMLElement>
         const tab = <HTMLElement>this.$refs[`tab-${tabName}`];
-        console.log(tab, 'dddd');
         if (!bar || !tab || !tab.querySelector('.text')) {
             return;
         }

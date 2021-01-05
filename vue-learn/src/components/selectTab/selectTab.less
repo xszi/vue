@@ -15,6 +15,9 @@
             &:hover {
                 color: #398BF7;
                 font-weight: 500;
+                .dot-circle {
+                    background-color: #398BF7;
+                }
             }
             span {
                 display: inline-block;
@@ -26,13 +29,24 @@
                 border-radius: 50%;
                 background-color: #989898;
                 margin: 2px 8px;
-                &:hover {
-                    background-color: #398BF7;
-                }
             }
             .active-dot {
                 background-color: #398BF7;
             }
         }
+        .active-tab {
+            color: #398BF7;
+        }
+    }
+    .tabs-active-bar {
+        position: absolute;
+        bottom: 0;
+        width: 28px;
+        height: 2px;
+        transform: translateX(0);
+        box-sizing: border-box;
+        background-color: #398BF7;
+        z-index: 1;
+        transition: .3s;
     }
 }

@@ -17,7 +17,7 @@
     "express": "^4.16.4",
     "less": "^3.9.0",
     "lib-flexible": "^0.3.2",
-    "mongoose": "^5.5.7",
+    "mongoose": "^5.7.5",
     "socket.io-client": "^2.2.0",
     "velocity-animate": "^1.5.2",
     "vue": "^2.5.2",
